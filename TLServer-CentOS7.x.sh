@@ -59,9 +59,9 @@ Select_Install_Version(){
 }
 
 downloadPack(){
-    # if [ ! -f "/opt/tlbbfor7x.tar.gz" ];then
-    #     wget -P /opt http://tlbbres.xinyu19.com/tlbbfor7x.tar.gz
-    # fi
+     if [ ! -f "/opt/tlbbfor7x.tar.gz" ];then
+         wget -P /opt https://raw.githubusercontent.com/chenwan320/TLBBHJ/master/tlbbfor7x.tar.gz
+     fi
     tar zxvf /opt/tlbbfor7x.tar.gz -C /opt
 }
 
