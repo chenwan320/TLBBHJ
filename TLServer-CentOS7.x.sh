@@ -60,7 +60,7 @@ Select_Install_Version(){
 
 downloadPack(){
 
- while [ ! -f "/opt/tlbbfor7x.tar.gz" ];then
+
 
 
     # if [ ! -f "/opt/tlbbfor7x.tar.gz" ];then
